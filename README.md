@@ -19,4 +19,8 @@ ExecStart=-/sbin/agetty --autologin root --noclear %I $TERM
  
  [[ -z $DISPLAY && $XDG_VTNR -eq 1 ]] && startx -- -nocursor
  
+ #Running Tkinter in GUI if error is display not found 
+ 
+export DISPLAY=0.0 #if not working then set dislpaly value to DISPLAY:0
+xhost +  #allows to use any display no restrictions
  
