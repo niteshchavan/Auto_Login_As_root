@@ -1,10 +1,10 @@
 # install Xorg
 
-sudo apt-get install xserver-xorg
+sudo apt-get install xserver-xorg -y
 
-sudo apt-get install xinit
+sudo apt-get install xinit -y
 
-sudo apt-get install x11-xserver-utils
+sudo apt-get install x11-xserver-utils -y
 
 
 
