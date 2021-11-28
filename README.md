@@ -1,11 +1,11 @@
 # install Xorg
-
+```
 sudo apt-get install xserver-xorg -y
 
 sudo apt-get install xinit -y
 
 sudo apt-get install x11-xserver-utils -y
-
+```
 
 
 # Auto_Login_As_root
