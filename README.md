@@ -21,6 +21,9 @@ nano /etc/systemd/logind.conf
 
 NAutoVTs=1
 ```
+
+# Enable Auto login using raspi-config option is B2 using pi text login
+
 nano /etc/systemd/system/getty@tty1.service.d/autologin.conf
 ```
 ExecStart=-/sbin/agetty --autologin root --noclear %I $TERM
